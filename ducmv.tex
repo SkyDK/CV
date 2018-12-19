@@ -1,0 +1,138 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{sansmathaccent}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{lmodern}
+\usepackage[scale=0.85]{geometry} % Reduce document margins 075
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\pdfmapfile{+sansmathaccent.map}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Duc} % Your first name
+\familyname{Mai Van} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Dong Hung}{Thai Binh}
+\birthday {23 December, 1993}
+\mobile{(+84) 369 661 698}
+\email{ducmv56@gmail.com}
+\homepage{www.linkedin.com/in/ducmv}{www.linkedin.com/in/ducmv} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[75pt][0.1pt]{duc} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2008--2011}{High School}{Bac Dong Quan high school}{Dong Hung - Thai Binh}{}{}  % Arguments not required can be left empty
+\cventry{2011--2015}{Bachelor of Science}{IT}{University of Engineering and Technology}{VNU,HN}{GPA-3.3/4.0}
+
+\section{Masters Thesis}
+\cvitem{Title}{\emph{Develop application based on Hybrid Mobile apps platform}}
+\cvitem{Supervisors}{MSc. Diep--Hoang Thi}
+\cvitem{Description}{The thesis has aimed at learning the foundations of Hybrid Mobile apps and the developing the applications based on Hybrid Mobile apps platform.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Experience}
+\subsection{Working}
+%----------
+\cventry{06.2015--present}{Factory Automation Division}{}{Toshiba Software Development Vietnam} {}
+{\begin{itemize}
+\item Developed LSI bonding machine
+  \begin{itemize}
+    \item Language : C++
+    \item Framework: MFC
+		\item Duties : Coding
+  \end{itemize}
+\end{itemize}
+}
+
+%----------
+\subsection{Internship}
+%------------------------------------------------
+\cventry{06.2014--06.2015}{Hybrid Mobile Application}{}{Agile Techno Solutions
+Co., Ltd}{}
+{\begin{itemize}
+\item Building Hybrid Mobile Application: Gist-A-Doctor.
+  \begin{itemize}
+    \item Language : PHP,HTML5,CSS,AngularJS
+    \item Database : MySQL
+    \item Framework : Ionic
+  \end{itemize}
+\end{itemize}
+}
+
+\section{Programming skills}
+
+\cvitem{Language}{
+	\begin{itemize}
+		\item Advanced: \textsc{C/C++}, \textsc{Java}
+		\item Basic: \textsc{Python}, \textsc{JavaScript}, \textsc{PHP}, \textsc{HTML}, \textsc{CSS}
+	\end{itemize}
+}
+\cvitem{Database}{\textsc{MySQL}, \textsc{SQLServer}, \textsc{SQLite}}
+\cvitem{Framework}{\textsc{MFC}, \textsc{Laravel}}
+
+\section{Computer skills}
+
+\cvitem{Advanced}{Windows, Microsoft Office, Visual Studio, Git, SVN}
+\cvitem{Basic}{Ubuntu, Adobe Photoshop, Adobe Illustrator}
+
+\section{Strengths and weaknesses}
+\cvitem{Strengths}{
+	\begin{itemize}
+		\item Self study, learn new language or framework fast
+		\item Hard working and work well under high pressure
+	\end{itemize}}
+\cvitem{Weaknesses}{
+	\begin{itemize}
+		\item Communication skill
+		\item Not good at planning and estimating
+	\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Vietnamese}{Mother tongue}{}
+\cvitemwithcomment{English}{Intermediate}{}
+\cvitemwithcomment{Japanese}{Basic Communication}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Movie}{Game}
+\cvlistdoubleitem{Book}{Pop music}
+\cvlistitem{Technology news}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Education}{1}{0}{1}
+\beamer@sectionintoc {2}{Masters Thesis}{1}{0}{2}
+\beamer@sectionintoc {3}{Experience}{1}{0}{3}
+\beamer@subsectionintoc {3}{1}{Working}{1}{0}{3}
+\beamer@subsectionintoc {3}{2}{Internship}{1}{0}{3}
+\beamer@sectionintoc {4}{Programming skills}{1}{0}{4}
+\beamer@sectionintoc {5}{Computer skills}{1}{0}{5}
+\beamer@sectionintoc {6}{Strengths and weaknesses}{1}{0}{6}
+\beamer@sectionintoc {7}{Languages}{1}{0}{7}
+\beamer@sectionintoc {8}{Interests}{1}{0}{8}
